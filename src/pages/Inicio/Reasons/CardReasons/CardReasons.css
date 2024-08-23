@@ -1,0 +1,80 @@
+.card-reasons-container {
+  display: flex;
+  justify-content: center; 
+  padding: 50px 20px;
+  background-color: #005BC6;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card-reason {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; 
+  height: 350px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s; 
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal; 
+}
+
+.card-reason:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-reason-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.card-reason-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #0C57CE;
+}
+
+.card-reason-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-reason-item {
+  display: flex;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: black;
+  word-wrap: break-word; /* Asegura que el texto dentro de los ítems se envuelva correctamente */
+}
+
+.card-reason-icon {
+  margin-right: 10px;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  .card-reasons-container {
+    padding: 0; /* Elimina el padding en dispositivos móviles */
+  }
+  
+  .card-reason {
+    margin: 10px; /* Mantiene el margen alrededor de las tarjetas */
+  }
+  
+  .card-reason:hover {
+    transform: none; /* Elimina el efecto de hover en móviles */
+    box-shadow: none; /* Elimina la sombra en móviles */
+  }
+}
