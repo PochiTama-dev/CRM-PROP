@@ -5,11 +5,12 @@ import Planes from '../pages/Planes/Planes';
 import Condiciones from '../pages/Condiciones/Condiciones';
 import Preguntas from '../pages/Preguntas/Preguntas';
 import Login from '../pages/Login/Login';
-
+import Header from '../components/Header/Header';
 
 function AppRoutes() {
   return (
     <Router>
+        <Header /> 
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/historial" element={<Historial />} />
