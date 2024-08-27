@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.clients-container {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .clients-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .clients-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .client-logo {
+    width: 120px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .client-logo:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  
