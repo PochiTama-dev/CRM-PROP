@@ -1,0 +1,86 @@
+.card-title {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+.card.selected, .card2.selected {
+  background-color: white;
+  border: 3px solid #0061FA;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+ 
+.card-content {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+.card {
+  background-color: #ECECEC;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 560px;
+  height: 330px;
+}
+.card2 {
+  background-color: #ECECEC;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 560px;
+  height: 330px;
+}
+
+.mas_vendido {
+  border-radius: 8px 8px 0 0;
+  background: #005bc6;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.card-price h3 {
+  font-size: 36px;
+}
+.card-price h2 {
+  font-size: 40px;
+}
+.card-price h2 s {
+  color: #ff4949;
+}
+.card-price{
+  padding: 10px 25px 5px 25px;
+}
+.mas_vendido img {
+  width: 35px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.inline-container {
+  display: flex; /* Aplica flexbox para alinear los elementos en línea */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  justify-content: space-between; /* Distribuye los elementos a los extremos */
+}
+
+.inline-container .icon {
+  margin-right: 10px; /* Espacio entre el icono del usuario y el texto */
+}
+
+.inline-container h2 {
+  margin: 0; /* Elimina el margen por defecto del h2 para un mejor alineado */
+  flex-grow: 1; /* Permite que el h2 ocupe el espacio restante */
+  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+  font-size: 18px; /* Ajusta el tamaño de la fuente según lo necesites */
+}
+
+.inline-container .info-icon {
+  margin-left: auto; /* Empuja el icono de información hacia la derecha */
+}
+.card-info{
+  padding: 0px 30px;
+}
+ 
