@@ -1,57 +1,64 @@
 .preguntas-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .preguntas-container h2{
-    font-size: 32px;
-    margin-bottom: 40px;
-  }
-  .pregunta-item {
-    border-radius: 4px;
-    margin-bottom: 10px;
-    overflow: hidden;  
-  }
-  
-  .pregunta-item span {
-    margin-left: 15px;
-    color: #0061FA;
-    font-size: 24px;
-  }
-  
-  .pregunta-header {
-    display: flex;
-    border-bottom: 1px solid #DFDFDF;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .pregunta-body {
-    padding: 10px;
-    background-color: #fff;
-    max-height: 0;  
-    overflow: hidden;  
-    transition: max-height 0.3s ease;  
-  }
-  
-  .arrow-ctn {
-    display: flex;
-    justify-content: center;  
-    align-items: center;  
-    width: 53px;
-    height: 50px;
-    background: #DDEDFF;
-    transition: transform 0.3s ease;  
-  }
-  
-  .arrow-ctn img {
-    width: 29px;
-    transition: transform 0.3s ease;  
-    transform: rotate(180deg);  
-  }
-  
-  
-  .pregunta-item.open .arrow-ctn img {
-    transform: rotate(0deg);
-  }
- 
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.preguntas-container h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.pregunta-item {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.pregunta-item span {
+  margin-left: 15px;
+  color: #0061FA;
+  font-size: 24px;
+}
+
+.pregunta-header {
+  display: flex;
+  border-bottom: 1px solid #DFDFDF;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pregunta-body {
+  padding: 10px;
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 20px;
+  transition: max-height 0.3s ease, padding 0.3s ease;  
+}
+
+.arrow-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 50px;
+  background: #DDEDFF;
+  transition: transform 0.3s ease;
+}
+
+.arrow-ctn img {
+  width: 29px;
+  transition: transform 0.3s ease;
+  transform: rotate(180deg);
+}
+
+.pregunta-item.open .arrow-ctn img {
+  transform: rotate(0deg);
+}
+
+.pregunta-item.open .pregunta-body {
+  max-height: 500px;  
+  padding: 10px; 
+  transition: max-height 0.3s ease, padding 0.3s ease;  
+}

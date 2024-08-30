@@ -9,7 +9,7 @@ import Confia from "./Confia/Confia";
 const Home = () => {
   return (
     <div>
-      <Header />
+   
       <Banner />
       <Reasons/>
       <CardReasons />

@@ -86,6 +86,7 @@
   .login-icon:hover {
     background-color: #007bff;
     color: white;
+    padding: 10px;
   }
 
 .mobile-menu {
@@ -93,7 +94,22 @@
   font-size: 24px;
   cursor: pointer;
 }
+.header .nav-links li {
+  margin: 0 15px;
+  position: relative;  
+}
 
+.header .nav-links li a {
+  text-decoration: none;
+  color: #333;  
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.header .nav-links li.active a {
+  color: #007bff;  
+  border-bottom: 2px solid #007bff;  
+}
 @media (max-width: 768px) {
   .nav-links {
     display: none;

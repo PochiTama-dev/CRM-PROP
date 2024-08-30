@@ -1,0 +1,111 @@
+.contacto-container {
+    display: flex;
+    height: calc(100vh - 70px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacto-left {
+    background-color: #0C57CE;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contacto-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contacto-left h1 {
+    font-size: 36px;
+  }
+  
+  .required-label::after {
+    content: '*';
+    color: red;
+    margin-left: 2px;
+  }
+  
+  .contacto-right {
+    background-color: white;
+    flex: 1;
+    padding: 40px;
+    margin-top: 10vh;
+  }
+  
+  .contacto-form-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .contacto-right h2 {
+    margin: 0 0 10px 0;
+    font-size: 42px;
+  }
+  
+  .contacto-right p {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-group textarea {
+    height: 60px;
+    resize: vertical;
+  }
+  
+  .contacto-submit-button {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: #0C57CE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contacto-submit-button:hover {
+    background-color: #0044cc;
+  }
+  
+  .contacto-container .divider {
+    display: none;  
+  }
+  
+  .contacto-register-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .contacto-register-link a {
+    color: #0C57CE;
+    text-decoration: none;
+  }
+  
+  .contacto-register-link a:hover {
+    text-decoration: underline;
+  }
+  

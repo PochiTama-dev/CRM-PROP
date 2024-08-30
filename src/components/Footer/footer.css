@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+ flex-direction: column;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer .footer-ctn {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+  }
+  .footer-left, .footer-center, .footer-right {
+    flex: 1;
+  }
+  
+  .footer-left img {
+    max-width: 150px;
+  }
+  .footer-left {
+margin-top: -30px;
+  }
+  
+  .footer-left .address{
+     display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .footer-center ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-center ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-center ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-right .feedback, .footer-right .payment-methods, .footer-right .social-icons, .footer-right .legal-info {
+    margin-bottom: 10px;
+  }
+  
+  .footer-right .payment-methods img {
+    margin-right: 10px;
+    max-width: 50px;
+  
+  }
+  .footer-right .payment-methods  {
+   
+    display: flex;
+    width: 56px;
+   height: 30px;
+    flex-direction: row;
+  }
+  
+  
+  .footer-right .social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .legal-info p {
+    display: flex;
+  justify-content: center;
+  }
+ .logo{
+    margin-left: 90px;
+ }
+ .social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+ 
+  }
