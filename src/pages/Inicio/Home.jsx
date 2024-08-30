@@ -6,7 +6,7 @@ import CardReasons from "./Reasons/CardReasons/CardReasons";
 const Home = () => {
   return (
     <div>
-      <Header />
+   
       <Banner />
       <Reasons/>
       <CardReasons />

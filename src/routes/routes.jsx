@@ -6,7 +6,8 @@ import Condiciones from '../pages/Condiciones/Condiciones';
 import Preguntas from '../pages/Preguntas/Preguntas';
 import Login from '../pages/Login/Login';
 import Header from '../components/Header/Header';
-
+import Footer from '../components/Footer/Footer';
+import Contacto from '../pages/Contacto/Contacto';
 function AppRoutes() {
   return (
     <Router>
@@ -15,10 +16,12 @@ function AppRoutes() {
         <Route path="/" element={<Home/>} />
         <Route path="/historial" element={<Historial />} />
         <Route path="/planes" element={<Planes/>} />
-        <Route path="/condiciones-generales" element={<Condiciones />} />
+        <Route path="/condiciones-generales" element={<Preguntas />} />
         <Route path="/preguntas-frecuentes" element={<Preguntas />} />
         <Route path="/iniciar-sesion" element={<Login />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Routes>
+      <Footer /> 
     </Router>
   );
 }

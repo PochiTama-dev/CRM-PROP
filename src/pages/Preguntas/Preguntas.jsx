@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './preguntas.css'; // Asegúrate de tener el archivo CSS con los estilos
-import arrow from './arrow.png'; // Asegúrate de que la ruta sea correcta
-import { preguntas } from './constants'; // Importa las preguntas desde el archivo de constantes
+import './preguntas.css'; 
+import arrow from './arrow.png';  
+import { preguntas } from './constants';  
 
 const Preguntas = () => { 
   const [openIndex, setOpenIndex] = useState(null);
